@@ -16,46 +16,47 @@ Generates the hidden .git directory.
 Verify:
 
 ls -la
+
 Step 2: Configure Git Username
 git config --global user.name "xxxxxxx"
 Verify:
 
-git config --global user.name
+git config --global user.email
 Output:
-
 username
+
 Step 3: Configure Git Email
 git config --global user.email "xxxxxxx"
+
 Verify:
 
 git config --global user.email
 Output:
-
 emailid
+
 Step 4: Verify Git Configuration
 git config --global --list
 Output:
-
 user.name=username
 user.email=emailid 
+
 Step 5: Create GitHub Repository
 Repository Name:
 
 nginx-static-website_Veerla
 Owner:
-
 ownername
+
 Step 6: Connect Local Repository to GitHub
 Add remote repository:
 
 git remote add origin https://github.com/Veerla-Ganesh-Subrahmanyam/nginx-static-website_Veerla.git
 Verify:
-
 git remote -v
 Output:
-
 origin  https://github.com/Veerla-Ganesh-Subrahmanyam/nginx-static-website_Veerla.git (fetch)
 origin  https://github.com/Veerla-Ganesh-Subrahmanyam/nginx-static-website_Veerla.git (push)
+
 Step 7: Verify Remote Repository
 git remote show origin
 Purpose:
@@ -63,6 +64,7 @@ Purpose:
 Displays Fetch URL.
 Displays Push URL.
 Displays tracking information.
+
 Step 8: Create Classic Personal Access Token (PAT)
 Navigate to:
 
@@ -79,6 +81,7 @@ Purpose:
 
 Allows Git operations over HTTPS.
 Used instead of GitHub account password.
+
 Step 9: Push Code to GitHub
 Push local main branch:
 
@@ -92,6 +95,7 @@ Username:
 username 
 Password:
 <Classic Personal Access Token>
+
 Step 10: Successful Push Output
 Enumerating objects: 3, done.
 Counting objects: 100% (3/3), done.
