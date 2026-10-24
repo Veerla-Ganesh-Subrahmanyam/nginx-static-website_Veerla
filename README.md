@@ -1,4 +1,5 @@
 Static Website Hosting with Nginx and GitHub
+
 Project Overview
 This project demonstrates the deployment of a static website on Ubuntu Linux using Nginx Web Server and publishing the source code to GitHub.
 
